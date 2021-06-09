@@ -4,6 +4,8 @@ programa
 	funcao inicio()
 	{
 		cadeia frutas[4]
+		inteiro contador = 0
+		
 		escreva("De o nome a fruta 1: ")
 		leia(frutas[0])
 		escreva("De o nome a fruta 2: ")
@@ -13,7 +15,10 @@ programa
 		escreva("De o nome a fruta 4: ")
 		leia(frutas[3])
 
-		escreva("Os nomes dados foram:" + frutas[0] + ", " + frutas[1] + ", " + frutas[2] + " e " + frutas[3] + ".")
+		faca{
+			escreva("\nOs nomes dados foram: " + frutas[contador])
+			contador ++
+		}enquanto(contador<=3)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -21,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 378; 
+ * @POSICAO-CURSOR = 361; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
