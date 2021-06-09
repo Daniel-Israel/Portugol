@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 programa
 {
 	
 	funcao inicio()
 	{
+=======
+programa
+{
+	
+	funcao inicio()
+	{
+>>>>>>> 673cc5a4e9e8592315b4ff9035947c866edb53d4
 		inteiro contador, limite, resultado, valor, maximo
 		valor = 0
 		contador = 0
@@ -23,8 +31,13 @@ programa
 				escreva(valor + "x" + contador + " = " + resultado + "\n")
 				contador ++
 			}enquanto (contador <= maximo)
+<<<<<<< HEAD
 	}
 }
+=======
+	}
+}
+>>>>>>> 673cc5a4e9e8592315b4ff9035947c866edb53d4
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
