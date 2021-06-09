@@ -24,7 +24,10 @@ programa
 		escreva("O funcionário: " + func + " vendeu no total: " + total + " e vendeu em média: " + media + " durante os quatro primeiros meses.")
 
 		se (media>=10){
-			escreva("\nO funcionário receberá um abono salarial de 10%")
+			escreva("\nO funcionário: " + func + " receberá um abono salarial de 10%.")
+		}
+		senao{
+			escreva("\nO funcionário: " + func + " receberá um abono salarial de 3%.")
 		}
 	}
 }
@@ -33,7 +36,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 679; 
+ * @POSICAO-CURSOR = 683; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

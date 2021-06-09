@@ -26,9 +26,14 @@ programa
 
 		media = (nota1+nota2+nota3+nota4)/4
 
-		escreva("\n----------------------------")
+		escreva("\n-----------------------------------------------------------------------")
 
-		escreva("\nO aluno: " + aluno + " obteve a média: " + media)
+		se(media>=7){
+			escreva("\nO aluno: " + aluno + " obteve a média: " + media + " e foi aprovado.")
+		}
+		senao{
+			escreva("\nO aluno: " + aluno + " obteve a média: " + media + " e foi reprovado.")
+		}
 		
 	}
 }
@@ -37,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 496; 
+ * @POSICAO-CURSOR = 695; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
